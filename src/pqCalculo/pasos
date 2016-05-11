@@ -1,0 +1,47 @@
+
+CREARLIBRERIAPropia
+
+1)newProject/JavaClassLibrary
+    1.a)FolderProject/B.R.Raton/newPaquet
+        1.a.1)Paquet/B.R.raton/Java Class
+        1.a.1.I)Añadir metodos unicamente estaticos 
+             .II) No possible importancion ni trabajo entre la diferentes classes y sus metodos
+        1.a.2)FolderProject/B.R.Raton/Build
+        1.a.3)FolderProject/B.R.Raton/WindowOutput Copy addres
+2)paste and go part adrres project,add dist. You'll find  foo.jar file: 
+    home/hugo/NetBeansProjects/LibreriaProba/dist
+3)Browser paste address ( home/hugo/NetBeansProjects/LibreriaProba/dist/) and copy
+  file: xxx.jar. And are  going to  paste outside of /NetbeansProject Folder
+
+ADDLIBRARY
+
+1)Go to Project/folder/libraty/BR.Mouse
+    1.A)Add Jar/Folder--select
+2) Go to class working and add on import paquet Library interested:
+      import foobar.*;
+
+3) Solamenete se trabaja dentro PSVM
+     nombreClasse.nombreMetodo(); 
+      
+
+Crear ejecutable:
+
+Linux:
+
+1)Carpeta proyecto/B.D.Raton/ propietates/Packed/selecionamos todas opciones
+2)Carpeta proyecto/Build and Clean
+3)Creamos carpeta nueva fuera de NetbeansProject:
+        3.1)copiamos archibvo xxx.jar creado dentro carpeta creada :
+              home/hugo/NetBeansProjects/LibreriaProba/dist/fool.jar
+         3.2) copiamos carpeta y sus conetnidos /lib creado en carpeta creada   
+                 home/hugo/NetBeansProjects/LibreriaProba/dist/Lib
+4)Abrir el xxx.jar con terminal ye sta orden
+java -jar "Prova.jar" 
+
+
+
+
+
+
+
+
